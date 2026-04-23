@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Demoblaze Test Suite" parallel="tests"
+	thread-count="1">
+
+	<!-- ListenerExtent Report -->
+	<listeners>
+		<listener class-name="com.listeners.TestListener" />
+	</listeners>
+
+	<!-- Main Test Execution -->
+	<test name="Demoblaze Tests">
+
+		<classes>
+			<class name="com.tests.LoginTest" />
+			<class name="com.tests.SignupTest" />
+			<class name="com.tests.HomeTest" />
+			<class name="com.tests.ProductCategoryTest" />
+			<class name="com.tests.ProductDetailsTest" />
+			<class name="com.tests.CartTest" />
+			<class name="com.tests.PlaceOrderTest" />
+			<class name="com.tests.ContactTest" />
+			<class name="com.tests.AboutUsTest" />
+			<class name="com.tests.LogoutTest" />
+
+		</classes>
+
+	</test>
+
+</suite>

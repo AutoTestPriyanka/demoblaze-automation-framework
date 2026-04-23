@@ -1,0 +1,31 @@
+# Maven target folder
+/target/
+
+# Logs
+*.log
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IntelliJ files (if opened in IntelliJ)
+.idea/
+*.iml
+
+# Test reports
+/reports/
+/test-output/
+
+# Screenshots
+/screenshots/
+
+# Excel test data (optional if sensitive)
+*.xlsx
+
+# Extent reports
+*.html

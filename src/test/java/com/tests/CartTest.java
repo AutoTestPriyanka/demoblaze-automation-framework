@@ -1,10 +1,8 @@
 package com.tests;
 
 import java.util.List;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.base.BaseTest;
 import com.pages.CartPage;
 import com.utils.LogUtil;

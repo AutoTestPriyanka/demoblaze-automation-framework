@@ -2,7 +2,6 @@ package com.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.base.BaseTest;
 import com.pages.ProductDetailsPage;
 import com.utils.LogUtil;

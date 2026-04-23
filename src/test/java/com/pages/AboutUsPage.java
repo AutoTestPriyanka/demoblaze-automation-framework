@@ -1,7 +1,6 @@
 package com.pages;
 
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -13,27 +12,27 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AboutUsPage {
 
-	private final WebDriver driver;
-	private final WebDriverWait wait;
-	private final Actions actions;
+	 WebDriver driver;
+	 WebDriverWait wait;
+	 Actions actions;
 
 	// Navbar and modal
-	private final By aboutUsLink = By.linkText("About us");
-	private final By modal = By.id("videoModal");
-	private final By modalTitle = By.id("videoModalLabel");
-	private final By closeButton = By.xpath("//div[@id='videoModal']//button[normalize-space()='Close']");
-	private final By closeXButton = By.xpath("//div[@id='videoModal']//button[@class='close']");
+	 By aboutUsLink = By.linkText("About us");
+	 By modal = By.id("videoModal");
+	 By modalTitle = By.id("videoModalLabel");
+	 By closeButton = By.xpath("//div[@id='videoModal']//button[normalize-space()='Close']");
+	 By closeXButton = By.xpath("//div[@id='videoModal']//button[@class='close']");
 
 	// Video area
-	private final By videoPlayerContainer = By.cssSelector("#videoModal .video-js");
-	private final By bigPlayButton = By.cssSelector("#videoModal .vjs-big-play-button");
-	private final By controlPlayPauseButton = By.cssSelector("#videoModal .vjs-play-control");
-	private final By progressControl = By.cssSelector("#videoModal .vjs-progress-control");
-	private final By playProgressBar = By.cssSelector("#videoModal .vjs-play-progress");
-	private final By muteButton = By.cssSelector("#videoModal .vjs-mute-control");
-	private final By volumePanel = By.cssSelector("#videoModal .vjs-volume-panel, #videoModal .vjs-volume-menu-button");
-	private final By volumeBar = By.cssSelector("#videoModal .vjs-volume-bar, #videoModal .vjs-volume-level");
-	private final By fullscreenButton = By.cssSelector("#videoModal .vjs-fullscreen-control");
+	 By videoPlayerContainer = By.cssSelector("#videoModal .video-js");
+	 By bigPlayButton = By.cssSelector("#videoModal .vjs-big-play-button");
+	 By controlPlayPauseButton = By.cssSelector("#videoModal .vjs-play-control");
+	 By progressControl = By.cssSelector("#videoModal .vjs-progress-control");
+	 By playProgressBar = By.cssSelector("#videoModal .vjs-play-progress");
+	 By muteButton = By.cssSelector("#videoModal .vjs-mute-control");
+	 By volumePanel = By.cssSelector("#videoModal .vjs-volume-panel, #videoModal .vjs-volume-menu-button");
+	 By volumeBar = By.cssSelector("#videoModal .vjs-volume-bar, #videoModal .vjs-volume-level");
+	 By fullscreenButton = By.cssSelector("#videoModal .vjs-fullscreen-control");
 
 	public AboutUsPage(WebDriver driver) {
 		this.driver = driver;

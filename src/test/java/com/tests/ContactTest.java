@@ -3,7 +3,6 @@ package com.tests;
 import com.base.BaseTest;
 import com.pages.ContactPage;
 import com.utils.LogUtil;
-
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

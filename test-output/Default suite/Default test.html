@@ -1,0 +1,260 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 23 13:33:17 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>99 seconds (99594 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyVideoSeeksToSpecificTime()'><b>verifyVideoSeeksToSpecificTime</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify video seeks to a specific time<br/>
+<a href="#Output-1227170244" onClick='toggleBox("Output-1227170244", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1227170244" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1227170244">
+PASS: Video progress changed after seek.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyVideoCanBeMutedAndUnmuted()'><b>verifyVideoCanBeMutedAndUnmuted</b><br>Test class: com.tests.AboutUsTest<br>Test method: Confirm that the video can be muted and unmuted by the user<br/>
+<a href="#Output-277149580" onClick='toggleBox("Output-277149580", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-277149580" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-277149580">
+PASS: Video muted and unmuted successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyAboutUsModalOpensWhenUserClicksNavbarLink()'><b>verifyAboutUsModalOpensWhenUserClicksNavbarLink</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify About Us modal opens when user clicks navbar link<br/>
+<a href="#Output-1121072891" onClick='toggleBox("Output-1121072891", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1121072891" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1121072891">
+PASS: About Us modal opened when navbar link was clicked.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyVideoCanBePausedAndResumed()'><b>verifyVideoCanBePausedAndResumed</b><br>Test class: com.tests.AboutUsTest<br>Test method: Validate that the video can be paused and resumed<br/>
+<a href="#Output-2028767654" onClick='toggleBox("Output-2028767654", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2028767654" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2028767654">
+PASS: Video paused and resumed successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyVideoIsPausedInitially()'><b>verifyVideoIsPausedInitially</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify video is paused initially<br/>
+<a href="#Output-2097217770" onClick='toggleBox("Output-2097217770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2097217770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2097217770">
+PASS: Video is paused initially.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyVideoStartsPlayingWhenPlayButtonIsClicked()'><b>verifyVideoStartsPlayingWhenPlayButtonIsClicked</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify video starts playing when play button is clicked<br/>
+<a href="#Output-862931361" onClick='toggleBox("Output-862931361", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-862931361" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-862931361">
+PASS: Video started playing after clicking play button.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyModalContainsVideoPlayerContainer()'><b>verifyModalContainsVideoPlayerContainer</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify About Us modal contains video player container<br/>
+<a href="#Output-261216862" onClick='toggleBox("Output-261216862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-261216862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-261216862">
+PASS: Video player container is visible.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyModalClosesWhenXButtonIsClicked()'><b>verifyModalClosesWhenXButtonIsClicked</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify About Us modal closes when X button is clicked<br/>
+<a href="#Output-562345204" onClick='toggleBox("Output-562345204", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-562345204" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-562345204">
+PASS: Modal closed when X button was clicked.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyCloseButtonAndXButtonAreVisible()'><b>verifyCloseButtonAndXButtonAreVisible</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify Close button and X button are visible in About Us modal<br/>
+<a href="#Output-217827560" onClick='toggleBox("Output-217827560", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-217827560" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-217827560">
+PASS: Close button and X button are visible.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyBigPlayButtonIsVisible()'><b>verifyBigPlayButtonIsVisible</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify big play button is visible on video player<br/>
+<a href="#Output-319061373" onClick='toggleBox("Output-319061373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-319061373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-319061373">
+PASS: Big play button is visible.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyModalClosesWhenCloseButtonIsClicked()'><b>verifyModalClosesWhenCloseButtonIsClicked</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify About Us modal closes when Close button is clicked<br/>
+<a href="#Output-1545644729" onClick='toggleBox("Output-1545644729", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1545644729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1545644729">
+PASS: Modal closed when Close button was clicked.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyVideoCanEnterAndExitFullscreen()'><b>verifyVideoCanEnterAndExitFullscreen</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify video can enter and exit fullscreen<br/>
+<a href="#Output-323981046" onClick='toggleBox("Output-323981046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-323981046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-323981046">
+DEFECT: Video could not enter and exit fullscreen properly.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyUserCanAdjustVolumeLevel()'><b>verifyUserCanAdjustVolumeLevel</b><br>Test class: com.tests.AboutUsTest<br>Test method: Test if the user can adjust the volume level<br/>
+<a href="#Output-884599555" onClick='toggleBox("Output-884599555", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-884599555" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-884599555">
+PASS: Volume level changed successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyAboutUsModalTitleIsCorrect()'><b>verifyAboutUsModalTitleIsCorrect</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify About Us modal title is correct<br/>
+<a href="#Output-1050149826" onClick='toggleBox("Output-1050149826", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1050149826" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1050149826">
+PASS: About Us modal title is correct.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+<tr>
+<td title='com.tests.AboutUsTest.verifyVideoPausesAfterPlay()'><b>verifyVideoPausesAfterPlay</b><br>Test class: com.tests.AboutUsTest<br>Test method: Verify video pauses after play<br/>
+<a href="#Output-627707285" onClick='toggleBox("Output-627707285", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-627707285" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-627707285">
+PASS: Video paused successfully after play.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.tests.AboutUsTest@5bf0d49</td></tr>
+</table><p>
+</body>
+</html>

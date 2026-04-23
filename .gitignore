@@ -2,7 +2,7 @@
 /target/
 
 # Logs
-*.log
+# *.log
 
 # Eclipse files
 .project
@@ -18,14 +18,14 @@ Thumbs.db
 *.iml
 
 # Test reports
-/reports/
-/test-output/
+# /reports/
+# /test-output/
 
 # Screenshots
-/screenshots/
+# /screenshots/
 
 # Excel test data (optional if sensitive)
 # *.xlsx
 
 # Extent reports
-*.html
+# *.html
